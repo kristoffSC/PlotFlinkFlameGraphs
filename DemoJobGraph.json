@@ -1,0 +1,842 @@
+{
+	"endTimestamp": 1683551874544,
+	"data": {
+		"name": "root",
+		"value": 9,
+		"children": [
+			{
+				"name": "java.lang.Thread.run:-1",
+				"value": 9,
+				"children": [
+					{
+						"name": "org.apache.flink.runtime.taskmanager.Task.run:562",
+						"value": 9,
+						"children": [
+							{
+								"name": "org.apache.flink.runtime.taskmanager.Task.doRun:745",
+								"value": 9,
+								"children": [
+									{
+										"name": "org.apache.flink.runtime.taskmanager.Task.restoreAndInvoke:931",
+										"value": 9,
+										"children": [
+											{
+												"name": "org.apache.flink.runtime.taskmanager.Task.runWithSystemExitMonitoring:952",
+												"value": 9,
+												"children": [
+													{
+														"name": "org.apache.flink.runtime.taskmanager.Task$$Lambda$923/0x0000000840731840.run:-1",
+														"value": 4,
+														"children": [
+															{
+																"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.invoke:788",
+																"value": 4,
+																"children": [
+																	{
+																		"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.runMailboxLoop:839",
+																		"value": 4,
+																		"children": [
+																			{
+																				"name": "org.apache.flink.streaming.runtime.tasks.mailbox.MailboxProcessor.runMailboxLoop:231",
+																				"value": 4,
+																				"children": [
+																					{
+																						"name": "org.apache.flink.streaming.runtime.tasks.StreamTask$$Lambda$718/0x0000000840603040.runDefaultAction:-1",
+																						"value": 4,
+																						"children": [
+																							{
+																								"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.processInput:550",
+																								"value": 4,
+																								"children": [
+																									{
+																										"name": "org.apache.flink.streaming.runtime.io.StreamOneInputProcessor.processInput:65",
+																										"value": 4,
+																										"children": [
+																											{
+																												"name": "org.apache.flink.streaming.runtime.io.AbstractStreamTaskNetworkInput.emitNext:110",
+																												"value": 4,
+																												"children": [
+																													{
+																														"name": "org.apache.flink.streaming.runtime.io.AbstractStreamTaskNetworkInput.processElement:146",
+																														"value": 4,
+																														"children": [
+																															{
+																																"name": "org.apache.flink.streaming.runtime.tasks.OneInputStreamTask$StreamTaskNetworkOutput.emitRecord:237",
+																																"value": 4,
+																																"children": [
+																																	{
+																																		"name": "org.apache.flink.streaming.runtime.io.RecordProcessorUtils$$Lambda$752/0x0000000840657c40.accept:-1",
+																																		"value": 4,
+																																		"children": [
+																																			{
+																																				"name": "org.apache.flink.streaming.api.operators.ProcessOperator.processElement:66",
+																																				"value": 4,
+																																				"children": [
+																																					{
+																																						"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:16",
+																																						"value": 4,
+																																						"children": [
+																																							{
+																																								"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:44",
+																																								"value": 1,
+																																								"children": [
+																																									{
+																																										"name": "org.apache.flink.streaming.api.operators.TimestampedCollector.collect:51",
+																																										"value": 1,
+																																										"children": [
+																																											{
+																																												"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.collect:29",
+																																												"value": 1,
+																																												"children": [
+																																													{
+																																														"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.collect:50",
+																																														"value": 1,
+																																														"children": [
+																																															{
+																																																"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.pushToOperator:75",
+																																																"value": 1,
+																																																"children": [
+																																																	{
+																																																		"name": "org.apache.flink.streaming.runtime.io.RecordProcessorUtils$$Lambda$752/0x0000000840657c40.accept:-1",
+																																																		"value": 1,
+																																																		"children": [
+																																																			{
+																																																				"name": "org.apache.flink.streaming.api.operators.StreamSink.processElement:54",
+																																																				"value": 1,
+																																																				"children": [
+																																																					{
+																																																						"name": "org.example.internal.ConsoleSink.invoke:25",
+																																																						"value": 1,
+																																																						"children": [
+																																																							{
+																																																								"name": "org.apache.logging.slf4j.Log4jLogger.info:179",
+																																																								"value": 1,
+																																																								"children": [
+																																																									{
+																																																										"name": "org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled:1875",
+																																																										"value": 1,
+																																																										"children": [
+																																																											{
+																																																												"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessage:2022",
+																																																												"value": 1,
+																																																												"children": [
+																																																													{
+																																																														"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely:2142",
+																																																														"value": 1,
+																																																														"children": [
+																																																															{
+																																																																"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion:2159",
+																																																																"value": 1,
+																																																																"children": [
+																																																																	{
+																																																																		"name": "org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage:2205",
+																																																																		"value": 1,
+																																																																		"children": [
+																																																																			{
+																																																																				"name": "org.apache.logging.log4j.core.Logger.log:161",
+																																																																				"value": 1,
+																																																																				"children": [
+																																																																					{
+																																																																						"name": "org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log:82",
+																																																																						"value": 1,
+																																																																						"children": [
+																																																																							{
+																																																																								"name": "org.apache.logging.log4j.core.config.LoggerConfig.log:417",
+																																																																								"value": 1,
+																																																																								"children": [
+																																																																									{
+																																																																										"name": "org.apache.logging.log4j.core.config.LoggerConfig.log:483",
+																																																																										"value": 1,
+																																																																										"children": [
+																																																																											{
+																																																																												"name": "org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent:500",
+																																																																												"value": 1,
+																																																																												"children": [
+																																																																													{
+																																																																														"name": "org.apache.logging.log4j.core.config.LoggerConfig.callAppenders:542",
+																																																																														"value": 1,
+																																																																														"children": [
+																																																																															{
+																																																																																"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppender:89",
+																																																																																"value": 1,
+																																																																																"children": [
+																																																																																	{
+																																																																																		"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion:125",
+																																																																																		"value": 1,
+																																																																																		"children": [
+																																																																																			{
+																																																																																				"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppender0:134",
+																																																																																				"value": 1,
+																																																																																				"children": [
+																																																																																					{
+																																																																																						"name": "org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender:161",
+																																																																																						"value": 1,
+																																																																																						"children": [
+																																																																																							{
+																																																																																								"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append:181",
+																																																																																								"value": 1,
+																																																																																								"children": [
+																																																																																									{
+																																																																																										"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend:190",
+																																																																																										"value": 1,
+																																																																																										"children": [
+																																																																																											{
+																																																																																												"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent:199",
+																																																																																												"value": 1,
+																																																																																												"children": [
+																																																																																													{
+																																																																																														"name": "org.apache.logging.log4j.core.appender.OutputStreamManager.flush:294",
+																																																																																														"value": 1,
+																																																																																														"children": [
+																																																																																															{
+																																																																																																"name": "org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer:283",
+																																																																																																"value": 1,
+																																																																																																"children": [
+																																																																																																	{
+																																																																																																		"name": "org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination:250",
+																																																																																																		"value": 1,
+																																																																																																		"children": [
+																																																																																																			{
+																																																																																																				"name": "org.apache.logging.log4j.core.util.CloseShieldOutputStream.write:53",
+																																																																																																				"value": 1,
+																																																																																																				"children": [
+																																																																																																					{
+																																																																																																						"name": "java.io.PrintStream.write:-1",
+																																																																																																						"value": 1,
+																																																																																																						"children": [
+																																																																																																							{
+																																																																																																								"name": "java.io.BufferedOutputStream.write:-1",
+																																																																																																								"value": 1,
+																																																																																																								"children": [
+																																																																																																									{
+																																																																																																										"name": "java.io.FileOutputStream.write:-1",
+																																																																																																										"value": 1,
+																																																																																																										"children": [
+																																																																																																											{
+																																																																																																												"name": "java.io.FileOutputStream.writeBytes:-2",
+																																																																																																												"value": 1,
+																																																																																																												"children": []
+																																																																																																											}
+																																																																																																										]
+																																																																																																									}
+																																																																																																								]
+																																																																																																							}
+																																																																																																						]
+																																																																																																					}
+																																																																																																				]
+																																																																																																			}
+																																																																																																		]
+																																																																																																	}
+																																																																																																]
+																																																																																															}
+																																																																																														]
+																																																																																													}
+																																																																																												]
+																																																																																											}
+																																																																																										]
+																																																																																									}
+																																																																																								]
+																																																																																							}
+																																																																																						]
+																																																																																					}
+																																																																																				]
+																																																																																			}
+																																																																																		]
+																																																																																	}
+																																																																																]
+																																																																															}
+																																																																														]
+																																																																													}
+																																																																												]
+																																																																											}
+																																																																										]
+																																																																									}
+																																																																								]
+																																																																							}
+																																																																						]
+																																																																					}
+																																																																				]
+																																																																			}
+																																																																		]
+																																																																	}
+																																																																]
+																																																															}
+																																																														]
+																																																													}
+																																																												]
+																																																											}
+																																																										]
+																																																									}
+																																																								]
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															}
+																																														]
+																																													}
+																																												]
+																																											}
+																																										]
+																																									}
+																																								]
+																																							},
+																																							{
+																																								"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:43",
+																																								"value": 3,
+																																								"children": [
+																																									{
+																																										"name": "org.example.internal.SuspiciousFlinkBusinessLogic.suspiciousSleep:52",
+																																										"value": 3,
+																																										"children": [
+																																											{
+																																												"name": "java.util.Random.nextDouble:-1",
+																																												"value": 3,
+																																												"children": [
+																																													{
+																																														"name": "java.security.SecureRandom.next:-1",
+																																														"value": 3,
+																																														"children": [
+																																															{
+																																																"name": "java.security.SecureRandom.nextBytes:-1",
+																																																"value": 3,
+																																																"children": [
+																																																	{
+																																																		"name": "sun.security.provider.NativePRNG.engineNextBytes:-1",
+																																																		"value": 3,
+																																																		"children": [
+																																																			{
+																																																				"name": "sun.security.provider.NativePRNG$RandomIO.implNextBytes:-1",
+																																																				"value": 3,
+																																																				"children": [
+																																																					{
+																																																						"name": "sun.security.provider.NativePRNG$RandomIO.ensureBufferValid:-1",
+																																																						"value": 2,
+																																																						"children": [
+																																																							{
+																																																								"name": "sun.security.provider.NativePRNG$RandomIO.readFully:-1",
+																																																								"value": 2,
+																																																								"children": [
+																																																									{
+																																																										"name": "java.io.FilterInputStream.read:-1",
+																																																										"value": 2,
+																																																										"children": [
+																																																											{
+																																																												"name": "java.io.FileInputStream.read:-1",
+																																																												"value": 2,
+																																																												"children": [
+																																																													{
+																																																														"name": "java.io.FileInputStream.readBytes:-2",
+																																																														"value": 2,
+																																																														"children": []
+																																																													}
+																																																												]
+																																																											}
+																																																										]
+																																																									}
+																																																								]
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															}
+																																														]
+																																													}
+																																												]
+																																											}
+																																										]
+																																									}
+																																								]
+																																							}
+																																						]
+																																					}
+																																				]
+																																			}
+																																		]
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"name": "org.apache.flink.runtime.taskmanager.Task$$Lambda$835/0x000000084068a040.run:-1",
+														"value": 5,
+														"children": [
+															{
+																"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.invoke:788",
+																"value": 5,
+																"children": [
+																	{
+																		"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.runMailboxLoop:839",
+																		"value": 5,
+																		"children": [
+																			{
+																				"name": "org.apache.flink.streaming.runtime.tasks.mailbox.MailboxProcessor.runMailboxLoop:231",
+																				"value": 5,
+																				"children": [
+																					{
+																						"name": "org.apache.flink.streaming.runtime.tasks.StreamTask$$Lambda$722/0x000000084061f040.runDefaultAction:-1",
+																						"value": 5,
+																						"children": [
+																							{
+																								"name": "org.apache.flink.streaming.runtime.tasks.StreamTask.processInput:550",
+																								"value": 5,
+																								"children": [
+																									{
+																										"name": "org.apache.flink.streaming.runtime.io.StreamOneInputProcessor.processInput:65",
+																										"value": 5,
+																										"children": [
+																											{
+																												"name": "org.apache.flink.streaming.runtime.io.AbstractStreamTaskNetworkInput.emitNext:110",
+																												"value": 4,
+																												"children": [
+																													{
+																														"name": "org.apache.flink.streaming.runtime.io.AbstractStreamTaskNetworkInput.processElement:146",
+																														"value": 4,
+																														"children": [
+																															{
+																																"name": "org.apache.flink.streaming.runtime.tasks.OneInputStreamTask$StreamTaskNetworkOutput.emitRecord:237",
+																																"value": 4,
+																																"children": [
+																																	{
+																																		"name": "org.apache.flink.streaming.runtime.io.RecordProcessorUtils$$Lambda$779/0x0000000840665c40.accept:-1",
+																																		"value": 4,
+																																		"children": [
+																																			{
+																																				"name": "org.apache.flink.streaming.api.operators.ProcessOperator.processElement:66",
+																																				"value": 4,
+																																				"children": [
+																																					{
+																																						"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:16",
+																																						"value": 4,
+																																						"children": [
+																																							{
+																																								"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:44",
+																																								"value": 3,
+																																								"children": [
+																																									{
+																																										"name": "org.apache.flink.streaming.api.operators.TimestampedCollector.collect:51",
+																																										"value": 3,
+																																										"children": [
+																																											{
+																																												"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.collect:29",
+																																												"value": 3,
+																																												"children": [
+																																													{
+																																														"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.collect:50",
+																																														"value": 3,
+																																														"children": [
+																																															{
+																																																"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.pushToOperator:75",
+																																																"value": 2,
+																																																"children": [
+																																																	{
+																																																		"name": "org.apache.flink.streaming.runtime.io.RecordProcessorUtils$$Lambda$779/0x0000000840665c40.accept:-1",
+																																																		"value": 2,
+																																																		"children": [
+																																																			{
+																																																				"name": "org.apache.flink.streaming.api.operators.StreamSink.processElement:54",
+																																																				"value": 2,
+																																																				"children": [
+																																																					{
+																																																						"name": "org.example.internal.ConsoleSink.invoke:25",
+																																																						"value": 2,
+																																																						"children": [
+																																																							{
+																																																								"name": "org.apache.logging.slf4j.Log4jLogger.info:179",
+																																																								"value": 2,
+																																																								"children": [
+																																																									{
+																																																										"name": "org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled:1875",
+																																																										"value": 2,
+																																																										"children": [
+																																																											{
+																																																												"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessage:2022",
+																																																												"value": 2,
+																																																												"children": [
+																																																													{
+																																																														"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely:2142",
+																																																														"value": 2,
+																																																														"children": [
+																																																															{
+																																																																"name": "org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion:2159",
+																																																																"value": 2,
+																																																																"children": [
+																																																																	{
+																																																																		"name": "org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage:2205",
+																																																																		"value": 2,
+																																																																		"children": [
+																																																																			{
+																																																																				"name": "org.apache.logging.log4j.core.Logger.log:161",
+																																																																				"value": 2,
+																																																																				"children": [
+																																																																					{
+																																																																						"name": "org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log:82",
+																																																																						"value": 2,
+																																																																						"children": [
+																																																																							{
+																																																																								"name": "org.apache.logging.log4j.core.config.LoggerConfig.log:417",
+																																																																								"value": 2,
+																																																																								"children": [
+																																																																									{
+																																																																										"name": "org.apache.logging.log4j.core.config.LoggerConfig.log:483",
+																																																																										"value": 2,
+																																																																										"children": [
+																																																																											{
+																																																																												"name": "org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent:500",
+																																																																												"value": 2,
+																																																																												"children": [
+																																																																													{
+																																																																														"name": "org.apache.logging.log4j.core.config.LoggerConfig.callAppenders:542",
+																																																																														"value": 2,
+																																																																														"children": [
+																																																																															{
+																																																																																"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppender:89",
+																																																																																"value": 2,
+																																																																																"children": [
+																																																																																	{
+																																																																																		"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion:125",
+																																																																																		"value": 1,
+																																																																																		"children": [
+																																																																																			{
+																																																																																				"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppender0:134",
+																																																																																				"value": 1,
+																																																																																				"children": [
+																																																																																					{
+																																																																																						"name": "org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender:161",
+																																																																																						"value": 1,
+																																																																																						"children": [
+																																																																																							{
+																																																																																								"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append:181",
+																																																																																								"value": 1,
+																																																																																								"children": [
+																																																																																									{
+																																																																																										"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend:190",
+																																																																																										"value": 1,
+																																																																																										"children": [
+																																																																																											{
+																																																																																												"name": "org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent:197",
+																																																																																												"value": 1,
+																																																																																												"children": [
+																																																																																													{
+																																																																																														"name": "org.apache.logging.log4j.core.layout.PatternLayout.encode:60",
+																																																																																														"value": 1,
+																																																																																														"children": [
+																																																																																															{
+																																																																																																"name": "org.apache.logging.log4j.core.layout.PatternLayout.encode:226",
+																																																																																																"value": 1,
+																																																																																																"children": [
+																																																																																																	{
+																																																																																																		"name": "org.apache.logging.log4j.core.layout.PatternLayout.toText:241",
+																																																																																																		"value": 1,
+																																																																																																		"children": [
+																																																																																																			{
+																																																																																																				"name": "org.apache.logging.log4j.core.layout.PatternLayout$PatternFormatterPatternSerializer.toSerializable:385",
+																																																																																																				"value": 1,
+																																																																																																				"children": [
+																																																																																																					{
+																																																																																																						"name": "org.apache.logging.log4j.core.pattern.PatternFormatter.format:44",
+																																																																																																						"value": 1,
+																																																																																																						"children": [
+																																																																																																							{
+																																																																																																								"name": "org.apache.logging.log4j.core.pattern.MessagePatternConverter$SimpleMessagePatternConverter.format:118",
+																																																																																																								"value": 1,
+																																																																																																								"children": []
+																																																																																																							}
+																																																																																																						]
+																																																																																																					}
+																																																																																																				]
+																																																																																																			}
+																																																																																																		]
+																																																																																																	}
+																																																																																																]
+																																																																																															}
+																																																																																														]
+																																																																																													}
+																																																																																												]
+																																																																																											}
+																																																																																										]
+																																																																																									}
+																																																																																								]
+																																																																																							}
+																																																																																						]
+																																																																																					}
+																																																																																				]
+																																																																																			}
+																																																																																		]
+																																																																																	},
+																																																																																	{
+																																																																																		"name": "org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion:124",
+																																																																																		"value": 1,
+																																																																																		"children": [
+																																																																																			{
+																																																																																				"name": "java.lang.ThreadLocal.set:-1",
+																																																																																				"value": 1,
+																																																																																				"children": []
+																																																																																			}
+																																																																																		]
+																																																																																	}
+																																																																																]
+																																																																															}
+																																																																														]
+																																																																													}
+																																																																												]
+																																																																											}
+																																																																										]
+																																																																									}
+																																																																								]
+																																																																							}
+																																																																						]
+																																																																					}
+																																																																				]
+																																																																			}
+																																																																		]
+																																																																	}
+																																																																]
+																																																															}
+																																																														]
+																																																													}
+																																																												]
+																																																											}
+																																																										]
+																																																									}
+																																																								]
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															},
+																																															{
+																																																"name": "org.apache.flink.streaming.runtime.tasks.CopyingChainingOutput.pushToOperator:74",
+																																																"value": 1,
+																																																"children": [
+																																																	{
+																																																		"name": "org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer.copy:306",
+																																																		"value": 1,
+																																																		"children": [
+																																																			{
+																																																				"name": "com.esotericsoftware.kryo.Kryo.copy:854",
+																																																				"value": 1,
+																																																				"children": [
+																																																					{
+																																																						"name": "com.esotericsoftware.kryo.util.IdentityMap.get:268",
+																																																						"value": 1,
+																																																						"children": [
+																																																							{
+																																																								"name": "java.lang.System.identityHashCode:-2",
+																																																								"value": 1,
+																																																								"children": []
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															}
+																																														]
+																																													}
+																																												]
+																																											}
+																																										]
+																																									}
+																																								]
+																																							},
+																																							{
+																																								"name": "org.example.internal.SuspiciousFlinkBusinessLogic.processElement:43",
+																																								"value": 1,
+																																								"children": [
+																																									{
+																																										"name": "org.example.internal.SuspiciousFlinkBusinessLogic.suspiciousSleep:52",
+																																										"value": 1,
+																																										"children": [
+																																											{
+																																												"name": "java.util.Random.nextDouble:-1",
+																																												"value": 1,
+																																												"children": [
+																																													{
+																																														"name": "java.security.SecureRandom.next:-1",
+																																														"value": 1,
+																																														"children": [
+																																															{
+																																																"name": "java.security.SecureRandom.nextBytes:-1",
+																																																"value": 1,
+																																																"children": [
+																																																	{
+																																																		"name": "sun.security.provider.NativePRNG.engineNextBytes:-1",
+																																																		"value": 1,
+																																																		"children": [
+																																																			{
+																																																				"name": "sun.security.provider.NativePRNG$RandomIO.implNextBytes:-1",
+																																																				"value": 1,
+																																																				"children": [
+																																																					{
+																																																						"name": "sun.security.provider.NativePRNG$RandomIO.ensureBufferValid:-1",
+																																																						"value": 1,
+																																																						"children": [
+																																																							{
+																																																								"name": "sun.security.provider.NativePRNG$RandomIO.readFully:-1",
+																																																								"value": 1,
+																																																								"children": [
+																																																									{
+																																																										"name": "java.io.FilterInputStream.read:-1",
+																																																										"value": 1,
+																																																										"children": [
+																																																											{
+																																																												"name": "java.io.FileInputStream.read:-1",
+																																																												"value": 1,
+																																																												"children": [
+																																																													{
+																																																														"name": "java.io.FileInputStream.readBytes:-2",
+																																																														"value": 1,
+																																																														"children": []
+																																																													}
+																																																												]
+																																																											}
+																																																										]
+																																																									}
+																																																								]
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															}
+																																														]
+																																													}
+																																												]
+																																											}
+																																										]
+																																									}
+																																								]
+																																							}
+																																						]
+																																					}
+																																				]
+																																			}
+																																		]
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											},
+																											{
+																												"name": "org.apache.flink.streaming.runtime.io.AbstractStreamTaskNetworkInput.emitNext:118",
+																												"value": 1,
+																												"children": [
+																													{
+																														"name": "org.apache.flink.streaming.runtime.io.checkpointing.CheckpointedInputGate.pollNext:150",
+																														"value": 1,
+																														"children": [
+																															{
+																																"name": "org.apache.flink.runtime.taskmanager.InputGateWithMetrics.pollNext:130",
+																																"value": 1,
+																																"children": [
+																																	{
+																																		"name": "org.apache.flink.runtime.io.network.partition.consumer.SingleInputGate.pollNext:736",
+																																		"value": 1,
+																																		"children": [
+																																			{
+																																				"name": "org.apache.flink.runtime.io.network.partition.consumer.SingleInputGate.getNextBufferOrEvent:750",
+																																				"value": 1,
+																																				"children": [
+																																					{
+																																						"name": "org.apache.flink.runtime.io.network.partition.consumer.SingleInputGate.waitAndGetNextData:780",
+																																						"value": 1,
+																																						"children": [
+																																							{
+																																								"name": "org.apache.flink.runtime.io.network.partition.consumer.LocalInputChannel.getNextBuffer:222",
+																																								"value": 1,
+																																								"children": [
+																																									{
+																																										"name": "org.apache.flink.runtime.io.network.partition.PipelinedSubpartitionView.getNextBuffer:50",
+																																										"value": 1,
+																																										"children": [
+																																											{
+																																												"name": "org.apache.flink.runtime.io.network.partition.PipelinedSubpartition.pollBuffer:537",
+																																												"value": 1,
+																																												"children": [
+																																													{
+																																														"name": "org.apache.flink.runtime.io.network.partition.ResultPartition.getOwningTaskName:165",
+																																														"value": 1,
+																																														"children": []
+																																													}
+																																												]
+																																											}
+																																										]
+																																									}
+																																								]
+																																							}
+																																						]
+																																					}
+																																				]
+																																			}
+																																		]
+																																	}
+																																]
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
